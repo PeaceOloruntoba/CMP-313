@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peace Oloruntoba</title>
+    <style>
+        .flex{
+            display: grid;
+            background-color: rgb(224, 194, 0);
+            align-items: center;
+            justify-content: space-between;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            font-size: larger;
+            border-radius: 12px;
+            font-weight: 700;
+        }
+        img{
+            align-items: center;
+            justify-content: center;
+            border-top-left-radius: 12px;
+            border-bottom-left-radius: 12px;
+        }
+        .logo{
+            align-items: center;
+            justify-content: center;
+            margin-bottom: -32px;
+        }
+        .grid{
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            text-align: center;
+        }
+        .grids{
+            display: grid;
+            gap: 18px;
+        }
+        .banner{
+            width: 600px;
+        }
+        input{
+            font-size: larger;
+            border: 2px solid rgb(0, 0, 0);
+            outline: none;
+            padding: 6px 10px;
+            border-radius: 8px;
+            font-size: larger;
+        }
+        button{
+            background: #000;
+            color: #fff;
+            font-size: larger;
+            font-weight: 600;
+            border: none;
+            cursor: pointer;
+            padding: 12px 8px;
+            border-radius: 10px;
+        }
+        a{
+            font-size: 22px;
+            text-decoration: none;
+            color: #000;
+            padding: 0 10px;
+            border-bottom: 2px solid #000;
+
+        }
+        .text-2xl{
+            font-size: 2rem;
+        }
+        .text-6xl{
+            font-size: 6rem;
+            margin: -2rem;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="flex">
+            <img src="./images/banner.png" alt="banner" class="banner">
+            <div class="grid">
+                <div>
+                    <img src="./images/greatjones.png" alt="logo" class="logo">
+                </div>
+                <p class="text-2xl">Sign up now to enjoy</p>
+                <p class="text-6xl">$100 OFF</p>
+                <p class="text-2xl">our Family style, five-piece set of<br>cookware essentials!</p>
+                <form action="" class="grids">
+                    <input type="email" placeholder="Email Address" required>
+                    <button type="submit">Continue</button>
+                </form>
+                <p><a href="">No, I'll pay full price</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

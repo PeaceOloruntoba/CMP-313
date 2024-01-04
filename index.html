@@ -1,99 +1,191 @@
+<!-- Coding by CodingLab | www.codinglabweb.com -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Peace Oloruntoba</title>
-    <style>
-        .flex{
-            display: grid;
-            background-color: rgb(224, 194, 0);
-            align-items: center;
-            justify-content: space-between;
-            grid-template-columns: 1fr 1fr;
-            gap: 12px;
-            font-size: larger;
-            border-radius: 12px;
-            font-weight: 700;
-        }
-        img{
-            align-items: center;
-            justify-content: center;
-            border-top-left-radius: 12px;
-            border-bottom-left-radius: 12px;
-        }
-        .logo{
-            align-items: center;
-            justify-content: center;
-            margin-bottom: -32px;
-        }
-        .grid{
-            display: grid;
-            align-items: center;
-            justify-content: center;
-            width: 100%;
-            text-align: center;
-        }
-        .grids{
-            display: grid;
-            gap: 18px;
-        }
-        .banner{
-            width: 600px;
-        }
-        input{
-            font-size: larger;
-            border: 2px solid rgb(0, 0, 0);
-            outline: none;
-            padding: 6px 10px;
-            border-radius: 8px;
-            font-size: larger;
-        }
-        button{
-            background: #000;
-            color: #fff;
-            font-size: larger;
-            font-weight: 600;
-            border: none;
-            cursor: pointer;
-            padding: 12px 8px;
-            border-radius: 10px;
-        }
-        a{
-            font-size: 22px;
-            text-decoration: none;
-            color: #000;
-            padding: 0 10px;
-            border-bottom: 2px solid #000;
-
-        }
-        .text-2xl{
-            font-size: 2rem;
-        }
-        .text-6xl{
-            font-size: 6rem;
-            margin: -2rem;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    
+    <title>Peace Oloruntoba</title> 
 </head>
 <body>
-    <div>
-        <div class="flex">
-            <img src="./images/banner.png" alt="banner" class="banner">
-            <div class="grid">
-                <div>
-                    <img src="./images/greatjones.png" alt="logo" class="logo">
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="logo.png" alt="">
+                </span>
+
+                <div class="text logo-text">
+                    <span class="name">Peace Oloruntoba</span>
+                    <span class="profession">Software developer</span>
                 </div>
-                <p class="text-2xl">Sign up now to enjoy</p>
-                <p class="text-6xl">$100 OFF</p>
-                <p class="text-2xl">our Family style, five-piece set of<br>cookware essentials!</p>
-                <form action="" class="grids">
-                    <input type="email" placeholder="Email Address" required>
-                    <button type="submit">Continue</button>
-                </form>
-                <p><a href="">No, I'll pay full price</a></p>
+            </div>
+
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+
+                <li class="search-box">
+                    <i class='bx bx-search icon'></i>
+                    <input type="text" placeholder="Search...">
+                </li>
+
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-home-alt icon' ></i>
+                            <span class="text nav-text">Introduction</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-bar-chart-alt-2 icon' ></i>
+                            <span class="text nav-text">Childhood</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-bell icon'></i>
+                            <span class="text nav-text">Education</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-pie-chart-alt icon' ></i>
+                            <span class="text nav-text">Formative...</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-heart icon' ></i>
+                            <span class="text nav-text">Careers</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-bar-chart-alt-2 icon' ></i>
+                            <span class="text nav-text">Personal Life</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-wallet icon' ></i>
+                            <span class="text nav-text">Challenges</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-bell icon'></i>
+                            <span class="text nav-text">Reflections</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-pie-chart-alt icon' ></i>
+                            <span class="text nav-text">Impact on Others</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-heart icon' ></i>
+                            <span class="text nav-text">Conclusion</span>
+                        </a>
+                    </li>
+
+
+                </ul>
+            </div>
+
+            <div class="bottom-content">
+                <li class="mode">
+                    <div class="sun-moon">
+                        <i class='bx bx-moon icon moon'></i>
+                        <i class='bx bx-sun icon sun'></i>
+                    </div>
+                    <span class="mode-text text">Dark mode</span>
+
+                    <div class="toggle-switch">
+                        <span class="switch"></span>
+                    </div>
+                </li>
+                
             </div>
         </div>
-    </div>
+
+    </nav>
+
+    <section class="home">
+        <div class="text">PEACE OLORUNTOBA</div>
+        <div class="text">AUTOBIOGRAPHY</div>
+        <div class="letter">
+        An autobiography is a self-written account of one's own life. It provides a first-person perspective on the author's experiences, thoughts, and reflections. While the structure and content can vary based on the author's preferences, here's a general outline often followed in autobiographies:
+<br>
+Introduction:
+<br>
+Begin with an engaging introduction that sets the tone for the autobiography.
+Provide background information about yourself, such as your name, birthdate, and early life.
+<br>
+Childhood and Early Years:
+<br>
+Share details about your childhood, family, and early experiences.
+Discuss influential people, events, or circumstances that shaped your early years.
+<br>
+Education:
+<br>
+Describe your educational journey, including schools attended, academic interests, and any challenges faced.
+<br>
+Formative Experiences:
+<br>
+Explore key events or experiences that had a significant impact on your personal development.
+Discuss moments of self-discovery or realization.
+<br>
+Career and Achievements:
+<br>
+Chronicle your professional life, career choices, and notable achievements.
+Reflect on the evolution of your career and how it aligns with your passions and goals.
+<br>
+Personal Life:
+<br>
+Open up about your personal relationships, friendships, and significant life events.
+Share insights into your values, beliefs, and the lessons you've learned.
+<br>
+Challenges and Triumphs:
+<br>
+Discuss obstacles, setbacks, or challenges you've faced and how you overcame them.
+Highlight moments of triumph and personal growth.
+<br>
+Reflections and Lessons Learned:
+<br>
+Reflect on your life experiences and the lessons they've taught you.
+Share personal philosophies, values, or principles that guide your life.
+<br>
+Impact on Others and Society:
+<br>
+Discuss any ways in which your life has influenced others or made a broader impact on society.
+Consider the legacy you hope to leave behind.
+<br>
+Conclusion:
+<br>
+Summarize the key themes and takeaways from your life story.
+Conclude with any current reflections or aspirations.</div>
+    </section>
+
+    <script src="script.js"></script>
+
 </body>
 </html>
+
