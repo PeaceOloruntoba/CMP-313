@@ -15,7 +15,6 @@ time {
     padding: 0;
     list-style: none;
 }
-
 a{
   text-decoration: none;
   color: #0062ff;
@@ -34,9 +33,7 @@ a{
     color: #5593ff;
     align-items: center;
     justify-content: center;
-
 }
-
 .intro-section {
   margin: auto;
   padding: 60px;
