@@ -151,26 +151,21 @@ a{
   font-size: 1rem;
   color: #6b7280;
 }
-
 .education-description {
   font-size: 1rem;
   font-weight: 400;
   color: #6b7280;
 }
-
 #experience, #skills{
   padding: 0 60px 0 60px;
 }
-
 .divis{
   display: flex;
   justify-content: space-around;
 }
-
 .font-bold{
   font-weight: 600;
 }
-
 .footer{
   display: flex;
   text-align: center;
