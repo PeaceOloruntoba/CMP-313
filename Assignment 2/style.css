@@ -126,19 +126,16 @@ a{
   border: 2px solid #fff;
   border-radius: 50%;
 }
-
 .marker-icon {
   width: 1rem;
   height: 1rem;
   fill: #3b82f6;
 }
-
 .education-title {
   font-size: 1.5rem;
   font-weight: 600;
   color: #9ca3af;
 }
-
 .status-badge {
   background-color: #2563eb;
   color: #fff;
@@ -148,7 +145,6 @@ a{
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
 }
-
 .education-date {
   display: block;
   margin-bottom: 0.5rem;
