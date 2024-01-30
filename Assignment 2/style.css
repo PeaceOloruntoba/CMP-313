@@ -58,13 +58,11 @@ a{
 .about-section {
   padding: 0 60px 0 60px;
 }
-
 .section-title {
   font-size: 2.5rem;
   font-weight: 600;
   color: #0062ff;
 }
-
 .about-paragraph {
   font-size: 1.6rem;
   font-weight: 600;
@@ -77,11 +75,9 @@ a{
   margin: auto;
   padding: 20px;
 }
-
 .education-list {
   margin-top: 20px;
 }
-
 .education-timeline {
   list-style: none;
   position: relative;
