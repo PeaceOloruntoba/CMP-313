@@ -83,12 +83,10 @@ a{
   position: relative;
   padding-left: 1rem;
 }
-
 .education-item {
   margin-bottom: 1.5rem;
   display: flex;
 }
-
 .timeline-marker1 {
   position: absolute;
   top: 0;
@@ -102,7 +100,6 @@ a{
   border: 2px solid #fff;
   border-radius: 50%;
 }
-
 .timeline-marker2 {
   position: absolute;
   top: 10;
@@ -116,7 +113,6 @@ a{
   border: 2px solid #fff;
   border-radius: 50%;
 }
-
 .timeline-marker3 {
   position: absolute;
   top: 20;
